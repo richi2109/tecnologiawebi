@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/
+    bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="
+    sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHygTpBfshb"
+    crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+       <h1 id="titulo"> hola que talagaghasgd esto es DOM</h1>
+       <p id="parrafo"> hola que tal esto kajsdhfsdhfds
+           dsjfhsadkhfdsgfhsdfgshdfkjdsfkjhsagdfkfsjdg
+           sadfgdsfhjkgdsfdshkjfgsdkhjfgsdfjhghsdfagkj
+       </p>
+       <button id="boton" class="btn btn-info">cambiar</button>
+    </div>
+    <script>
+        var h1 = document.getElementById("titulo");
+      console.log(h1.innerHTML);
+      h1.innerHTML = "hola a si se cambia";
+        h1.style.color ="blue";
+        h1.style.background ="red";
+        var p = document.getElementById("parrafo");
+        p.style.color = "red";
+    </script>
+</body>
+</html>

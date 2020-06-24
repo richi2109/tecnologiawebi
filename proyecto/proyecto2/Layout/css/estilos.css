@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1 {
+  font: small-caps 200%/300% serif;
+}
+body {
+  font-family: Arial, Sans-serif;
+  font-size: 16px;
+  background: #2a292e;
+ 
+}
+p {
+  font: oblique bold 120% cursive;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  overflow: hidden; }
+  .posecionada{
+    background: #2a292e ;
+    position:fixed;
+    top:10px;
+    bottom:;
+    left: ;
+    right: ;
+  }
+
+header {
+  background: rgb(185, 177, 177); }
+  header nav {
+    width: 100%; }
+    header nav ul {
+      list-style: none;
+      overflow: hidden; }
+      header nav ul li {
+        float: left; }
+        header nav ul li a {
+          text-decoration: none;
+          display: inline-block;
+          color: rgba(12, 11, 11, 0.966);
+          padding: 15px 20px; }
+          header nav ul li a:hover {
+            background: rgb(235, 91, 8);
+            color: rgb(61, 56, 56);
+          }
+            
+            
+
+.main {
+  width: 70%;
+  float: left;
+  background: rgb(126, 121, 121); }
+  .main .imagen {
+    width: 100%; }
+    .main .imagen img {
+      width: 100%;
+      vertical-align: top; }
+  .main .posts {
+    padding: 40px; }
+    .main .posts article h2 {
+      margin-bottom: 20px;
+      color: #424242; }
+    .main .posts article p {
+      margin-bottom: 15px;
+      line-height: 27px; }
+
+aside {
+  width: 30%;
+  float: left;
+  background: #161F26;
+  padding: 20px;
+  color: #fff; }
+  aside .widget {
+    margin-bottom: 20px; }
+    aside .widget .titulo {
+      color: #ff8000;
+      border-bottom: 1px solid #ff8000;
+      margin-bottom: 10px; }
+    aside .widget ul {
+      list-style: none; }
+      aside .widget ul li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 10px 0; }
+        aside .widget ul li a {
+          color: #fff;
+          text-decoration: none; }
+          aside .widget ul li a:hover {
+            color: #8f8f8f; }
+    aside .widget p {
+      line-height: 27px; }
+
+footer {
+  width: 70%;
+  overflow: hidden;
+  text-align: center;
+  background: #000;
+  color: rgb(155, 146, 146);
+  padding: 15px 0; }
+
+@media screen and (max-width: 1000px) {
+  .main {
+    width: 100%; }
+
+  aside {
+    width: 100%; }
+
+  footer {
+    width: 100%; } }
+
+/*# sourceMappingURL=estilos.css.map */

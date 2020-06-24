@@ -1,0 +1,120 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.men
+{
+    width: 100%;
+    background-color:#a2c9eb;
+}
+
+.formulario
+{
+	background-color:#ffffff;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.formulario input
+{
+display: block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="date"],
+.formulario input[type="list"],
+
+.formulario textarea
+{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid ;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+.formulario textarea
+{
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus
+{
+    border: 3px solid cadetblue;    
+
+}
+
+.formulario input[type="radio"]
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario select
+{
+    width: 150px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.formulario input[type="submit"]
+{
+    width: 200px;
+    margin: 15px auto;
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    background: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+
+}
+
+.formulario input[type="submit"]:hover {
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.formulario input[type="checkbox"] {
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+.formulario #ciudad{
+    border: 1px solid black;
+    color: black;
+    background: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.formulario #ciudad:hover {
+    background-color:cornflowerblue;
+    color: white;
+}
