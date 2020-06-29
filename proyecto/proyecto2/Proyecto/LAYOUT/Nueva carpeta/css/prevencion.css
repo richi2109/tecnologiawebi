@@ -1,0 +1,275 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family:regular;
+	src: url(oswald.ttf);
+}
+@font-face{
+	font-family:ubuntu;
+	src: url(ubuntu.ttf);
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	/*background: url('imagenes/cv.jpg'); */
+	background-color: white;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo 
+{
+	width: 30%;
+	
+}
+
+.contenedor {
+
+	
+	margin: auto;
+	width: 95%;
+	max-width: 100%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+header #logotipo
+{
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	padding: 0px 0px;
+}
+
+header {
+	margin-top: 0px;
+	width: 100%;
+	/*padding: 20px 0;*/
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+
+
+
+header .cab
+{
+	margin-bottom: 20px;
+	background:#58ACFA;
+	padding: 0px;
+	width: 100%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:no-wrap;
+	justify-content:space-between;
+}
+
+
+    header .menu ul {
+      list-style: none;
+      overflow: hidden; }
+      header .menu ul li {
+        float: left; }
+        header .menu ul li a {
+          text-decoration: none;
+          display: inline-block;
+          color:white;
+		  padding: 20px 35px; 
+		  font-family:regular;
+		  font-size: 20px;
+		  
+		}
+		    header nav ul li a:hover {
+			border-left: 1px solid #58ACFA;;
+			border-top: 1px solid #58ACFA;
+			border-bottom: 1px solid #58ACFA;
+            background: white;
+            color: #58ACFA; }
+
+.main {
+	
+	background: rgb(255, 255, 255);
+	padding: 30px;
+	width: 70%;
+}
+
+.main article .thumb {
+	margin-bottom: 20px;
+}
+
+.main article .thumb img {
+	vertical-align: top;
+	width: 100%;
+}
+
+.main article h2 {
+	margin-bottom: 25px;
+	font-style: bold;
+	font-weight: normal;
+	font-size: 32px;
+	font-family:regular;
+}
+
+.main article p {
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 27px;
+	font-family:ubuntu;
+}
+.main article ul 
+{ 
+
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 27px;
+	font-family:ubuntu;
+}
+
+.main .imagen 
+{
+	width: 90%;
+	margin-left: 25px;
+}
+
+.main .ul
+{
+
+	margin-left: 20px;
+	text-align: left;
+}
+
+aside {
+	font-family:ubuntu;
+	width: 30%;
+	background: #ffffff;
+	padding: 0px;
+	display: flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 27px;
+	
+}
+
+aside .ad .lista li {
+
+	margin-left: 20px;
+	text-align: left;
+}
+
+aside .ad {
+	width: auto;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	background:#1b7dda;
+	padding: 15px 25px;
+	margin-bottom: 5px;
+}
+
+
+aside #foto 
+{
+	width: 90%;
+	margin-left: 15px;
+
+}
+
+
+aside h5 {
+	
+	margin-bottom: 10px;
+	font-size: 20px;
+	line-height: 27px;
+}
+
+
+footer {
+	margin-top: 20px;
+/*	background: rgba(255,255,255,.2);*/
+	background-color:#58ACFA;
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	color: #fff;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:no-wrap;
+	justify-content:space-between;
+	font-family:regular;
+}
+
+footer .redes-sociales a {
+	color: #fff;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+
+footer .redes-sociales a:hover {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+	.main {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;
+		flex-direction:row;
+	}
+
+	aside .ad  {
+		width: 100%;
+
+	}
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		flex-direction:column;
+		padding-bottom: 20px; 
+	}
+
+	header .menu {
+		width: 100%;
+		background: rgba(255,255,255,.2);
+		text-align: center;
+		padding: 20px;
+	}
+
+	header .logo {
+		margin-bottom: 20px;
+	}
+
+	header .menu a {
+		margin:0 20px; 
+	}
+
+	footer {
+		flex-direction:column;
+		text-align: center;
+	}
+
+	footer .autor {
+		order:2;
+	}
+
+	footer .redes-sociales {
+		order:1;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	aside {
+		display: column;
+	}
+}

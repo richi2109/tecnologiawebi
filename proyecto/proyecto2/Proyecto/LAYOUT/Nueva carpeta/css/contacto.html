@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Informate.com</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="formularios.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="contenedor">
+
+		
+		<header>
+			<div class="logo">
+					<img id="logotipo" src="imagenes/informate.png" alt="logo_informate.com">
+			</div>
+	
+			<div class="cab">
+				<nav class="menu">
+					<ul class="navigation">
+						<li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="informacion.html">Información</a></li>
+						<li><a href="casos.html">Casos</a></li>
+						<li><a href="prevencion.html">Prevención</a></li>
+						<li><a href="noticias.html">Noticias</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<script src="js/menu.js"></script> 
+
+        <section class="men">
+		<form  class="formulario" action="">
+
+
+            <input required type="text" name="nombre" placeholder="Nombre" pattern="[a-z]{5,15}" title="Solo se acepta caracteres alfabéticos con un mínimo de cinco caracteres">
+            <input type="text" name="apellido" placeholder="Apellido">
+            <input type="email" placeholder="Ejemplo@email.com" id="email">
+            <input required type="tel" name="tel" placeholder="Número de telefono">
+            <input type="date" name="date">
+            <input  type="list" name="list" placeholder="Usuarios">
+        
+            <textarea name="comentarios" id="com" placeholder="Comentario" cols="30" rows="10"></textarea>
+        
+            <label for="ciudad">Ciudad</label>
+            <select name="ciudad" id="ciudad">
+            <option value="Cochabamba">Cochabamba</option>
+			<option value="La Paz">Beni</option>
+			<option value="La Paz">Sucre</option>
+			<option value="La Paz">Trija</option>
+            <option value="Santa Cruz">Santa Cruz</option></select>
+            
+            
+         
+            <!--  <input type="checkbox" name="Terminos" id="terminos">
+            <label id="texto" for="terminos">Acepto los terminos</label> -->
+            
+			<input type="submit" value="Enviar" id="enviar">
+		
+        </form>
+	</section>
+
+		<footer>
+			<div class="autor">
+				<p>Derechos reservados</p>
+			</div>
+			<div class="redes-sociales">
+				<a href=#>Facebook</a>
+				<a href=#>Twitter</a>
+			</div>
+		</footer>
+	</div>
+
+
+</body>
+</html>

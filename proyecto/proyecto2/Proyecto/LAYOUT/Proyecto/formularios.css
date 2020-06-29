@@ -9,7 +9,7 @@
 
 body
 {
-    background:url(imagenes/01.jpg);
+    /*background:url(imagenes/01.jpg);*/
     background-size:cover; 
     font-family: sans-serif;
 }
@@ -22,7 +22,7 @@ body
 
 .formulario
 {
-	background-color:#b88556;
+	background-color:#72c2f7;
     width: 500px;
     margin: 20px auto;
     padding: 20px;
@@ -118,4 +118,45 @@ display: block;
 .formulario #ciudad:hover {
     background-color:cornflowerblue;
     color: white;
+}
+@media screen and (max-width: 600px) {
+	header {
+		flex-direction:column;
+		padding-bottom: 20px; 
+	}
+
+	header .menu {
+		width: 100%;
+		background: rgba(255,255,255,.2);
+		text-align: center;
+		padding: 20px;
+	}
+
+	header .logo {
+		margin-bottom: 20px;
+	}
+
+	header .menu a {
+		margin:0 20px; 
+	}
+
+	footer {
+		flex-direction:column;
+		text-align: center;
+	}
+
+	footer .autor {
+		order:2;
+	}
+
+	footer .redes-sociales {
+		order:1;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	aside {
+		display: column;
+	}
 }

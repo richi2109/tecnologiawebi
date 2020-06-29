@@ -16,8 +16,8 @@
 }
 body {
 	font-family: 'Open Sans', sans-serif;
-	background: url('imagenes/fon_1.jpg'); 
-	/*background-color: white;*/
+	/*background: url('imagenes/fon_1.jpg'); */
+	background-color: white;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -25,7 +25,7 @@ body {
 .logo 
 {
 	width: 30%;
-	background-color: rgb(51, 47, 47);
+	
 }
 
 .contenedor {
@@ -41,7 +41,7 @@ body {
 header #logotipo
 {
 	width: 100%;
-	background-color: rgb(19, 17, 17);
+
 	padding: 0px 0px;
 }
 
@@ -163,14 +163,15 @@ aside .ad .lista li {
     font-family: cursive;
 	margin-left: 20px;
 	text-align: left;
+	font-family:ubuntu;
 }
 
 aside .ad {
-font-family: "Comic Sans MS", cursive, sans-serif;
+	
 	width: auto;
 	font-size: 16px;
 	color: rgb(255, 255, 255);
-	background:#4b5f72;
+	background:#1b7dda;
 	padding: 15px 25px;
 	margin-bottom: 5px;
 }
