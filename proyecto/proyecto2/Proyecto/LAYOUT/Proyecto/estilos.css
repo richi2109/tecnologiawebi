@@ -79,7 +79,7 @@ header .cab
         header .menu ul li a {
           text-decoration: none;
           display: inline-block;
-          color:white;
+          color:rgb(12, 12, 12);
 		  padding: 20px 35px; 
 		  font-family:regular;
 		  font-size: 20px;

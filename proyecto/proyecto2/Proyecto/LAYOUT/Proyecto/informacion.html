@@ -6,7 +6,8 @@
 	<title>Informate.com</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="informacion.css">
-	<link rel="stylesheet" href="reloj.css">
+	
+	<link rel="stylesheet" href="menu.css">
 	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
@@ -21,7 +22,8 @@
 	
 			<div class="cab">
 				<nav class="menu">
-					<ul>
+					<ul class="navigation">
+						<li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
 						<li><a href="index.html">Inicio</a></li>
 						<li><a href="informacion.html">Información</a></li>
 						<li><a href="https://www.ortopediasilvio.com/blog/mapa-en-tiempo-real-de-contagios-de-coronavirus-covid-19-en-el-mundo/">Casos</a></li>
@@ -189,30 +191,7 @@
 			<div class="autor">
 				<p>Derechos reservados</p>
 			</div>
-			<div class="wrap">
-				<div class="widget">
-					<div class="fecha">
-					  <p id="diasemana" class="diasemana"></p>
-					  <p id="dia" class="dia"></p>
-					  <p>de</p>
-					  <p id="mes" class="mes"></p>
-					  <p>del</p>
-					  <p id="year" class="year"></p>
-					</div>
- 
-					<div class="reloj">
-					 <p id="horas" class="horas"></p>
-					 <p>:</p>
-					 <p id="minutos" class="minutos"></p>
-					 <p>:</p>
-					 <div class="caja-segundos">
-						 <p id="ampm" class="ampm"></p>
-						 <p id="segundos" class="segundos"></p>
-					 </div>
-					</div>
-				</div>
-			 </div>
-		 <script> src="reloj.js"</script>
+			
 			<div class="redes-sociales">
 				<a href=#>Facebook</a>
 				<a href=#>Twitter</a>
@@ -221,5 +200,6 @@
 			
 		</footer>
 	</div>
+	<script src="menu.js"></script>  
 </body>
 </html>
