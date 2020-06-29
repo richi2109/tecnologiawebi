@@ -9,19 +9,20 @@
 
 body
 {
-    background-color: rgb(255, 255, 255);
+    background:url(imagenes/01.jpg);
+    background-size:cover; 
     font-family: sans-serif;
 }
 
 .men
 {
     width: 100%;
-    background-color:#a2c9eb;
+    
 }
 
 .formulario
 {
-	background-color:#ffffff;
+	background-color:#b88556;
     width: 500px;
     margin: 20px auto;
     padding: 20px;

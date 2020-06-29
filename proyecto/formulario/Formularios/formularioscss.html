@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Formularios</title>
@@ -7,11 +7,30 @@
 </head>
 <body>
 	<form class="formulario" action="">
-		<input type="text" placeholder="Nombre">
-		<input type="text" placeholder="Apellido">
-		<input type="email" placeholder="Correo">
-		<textarea name="" id="" placeholder="Mensaje"></textarea>
-		<input type="submit" value="Enviar">
+		<input required type="text" name="nombre" placeholder="Nombre" pattern="[a-z]{5,15}" title="Solo se acepta caracteres alfabéticos con un mínimo de cinco caracteres">
+		<input type="text" name="apellido" placeholder="Apellido">
+		<input type="email" placeholder="Ejemplo@email.com" id="email">
+		<input required type="tel" name="tel" placeholder="Número de telefono">
+		<input type="date" name="date">
+		<input  type="list" name="list" placeholder="Usuarios">
+	
+		<textarea name="comentarios" id="com" placeholder="Comentario" cols="30" rows="10"></textarea>
+	
+		<label for="ciudad">Ciudad</label>
+		<select name="ciudad" id="ciudad">
+		<option value="Cochabamba">Cochabamba</option>
+		<option value="La Paz">Beni</option>
+		<option value="La Paz">Sucre</option>
+		<option value="La Paz">Trija</option>
+		<option value="Santa Cruz">Santa Cruz</option></select>
+		
+		
+	 
+		<!--  <input type="checkbox" name="Terminos" id="terminos">
+		<label id="texto" for="terminos">Acepto los terminos</label> -->
+		
+		<input type="submit" value="Enviar" id="enviar">
+	
 	</form>
 </body>
 </html>
